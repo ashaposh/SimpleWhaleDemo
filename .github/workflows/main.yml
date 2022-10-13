@@ -1,7 +1,6 @@
 name: CI to Docker Hub
 on:
   label:
-    types: [ created ]
   push:
     branches: [ master ]
 jobs:
